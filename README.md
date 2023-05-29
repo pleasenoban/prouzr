@@ -1,9 +1,10 @@
-# install dependancies
+# instructions
+* install dependancies using
 ```bash
 npm install
 ```
-# download nwjs (nwjs.io) for your os and extract it into the main folder
-# run start command
+* download [nwjs](https://nwjs.io/) for your os and extract it into the main folder
+* run start command
 ```bash
 npm run start-lnx # linux
 npm run start-win # windows
