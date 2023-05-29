@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+}
+
+#clear {
+    width: 100%;
+    height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#itcontdiv {
+    width: 100%;
+}
+
+.item {
+    white-space: nowrap;
+}
+
+.open {
+    display: inline-block;
+    width: calc(100% - 30px);
+    height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.folder {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}

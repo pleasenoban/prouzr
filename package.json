@@ -1,0 +1,13 @@
+{
+  "name": "prouzr",
+  "version": "1.0.0",
+  "description": "nwjs browser",
+  "main": "src/main/main.html",
+  "scripts": {
+    "start-win": ".\\nw.exe",
+    "start-lnx": "./nw"
+  },
+  "chromium-args": "--disable-features=nw2",
+  "author": "me",
+  "license": "ISC"
+}
