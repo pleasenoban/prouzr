@@ -12,3 +12,4 @@ npm run start-win # windows
 # credits
 ### nwjs: https://nwjs.io/
 ### host files: https://github.com/bigdargon/hostsVN/
+### sortablejs: https://sortablejs.github.io/Sortable/
