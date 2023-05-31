@@ -25,6 +25,7 @@ class tab {
 
   constructor(url, active) {
     this.active = active;
+    this.adbstate = false;
     this.view = document.createElement("webview");
     this.tab = document.createElement("button");
     this.view.classList.add("views");
@@ -112,11 +113,8 @@ class tab {
       },
     });
 
-    this.view.request.onBeforeRequest.addListener(block, { urls: procadbh }, [
-      "blocking",
-    ]);
+    this.toggleadblock();
     
-    this.adbstate = true;
     this.tab.className = "tab";
     tabsdiv.append(this.tab);
     viewcontdiv.append(this.view);
@@ -157,6 +155,7 @@ class tab {
       this.view.request.onBeforeRequest.addListener(block, { urls: procadbh }, [
         "blocking",
       ]);
+      this.adbstate = true;
     }
     this.reload();
   }
